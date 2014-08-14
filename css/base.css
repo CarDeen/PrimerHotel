@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #000;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+#contenido{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: url("../images/fondo.jpg") 100% no-repeat;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 80px;
+    font-family: 'Oswald', sans-serif;
+    width: 60px;
+    border:1px outset #09090c;
+    border-radius: 8px 8px 0 0;
+    background: #a26131;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+nav ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    /*background: #b67f3e;*/
+    border-radius: 8px 8px 0 0;
+    width: 140px;
+}
+
+nav ul li a:hover {
+    background: #f5d858;
+    color: #000;
+}
+
+nav{
+    background: tan;
+    padding-top: 15px;
+    width: 100%;
+}
+
+#informacion {
+    border: 1px solid black;
+    padding: 30px;
+    background: #edeecb;
+}
+
+#informacion #texto {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    border: 2px solid rgba(5, 6, 5, 0.87);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(254, 255, 208, 0.09);
+    color: #883b0b;
+    font-family: 'Lobster Two', cursive;
+}
+
+#informacion #galeria{
+    width: 60%;
+    background: #db8054;
+    float: right;
+    height: 300px;
+}
+
+#galeria{
+    position: relative;
+}
+
+#galeria img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    width: 100%;
+    height: 100%;
+}
+
+#galeria img.active{
+    z-index: 10;
+}
+
+#galeria img.last-active{
+    z-index: 9;
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    height:210px;
+   background: #edeecb;
+    color: #000000;
+}
+
+footer #primerparrafo {
+    float: left;
+    color: #ffffff;
+    background: #000000;
+}
+
+footer #segundoparrafo{
+    padding-top: 15px;
+    float: left;
+    border-right: 1px solid #000000;
+    padding-right: 15%;
+}
+
+#segundoparrafo img{
+    padding-left: 180px;
+}
+
+footer #tercerparrafo{
+    float: right;
+    border: 3px solid  #edeecb;
+    padding: 35px;
+    background: #edeecb;
+}
+
+#tercerparrafo p{
+    padding-bottom: 4px;
+    font-size: 0.95em;
+}
+
+footer #cuartoparrafo{
+    margin-top: 3px;
+    /*background: rgba(157, 89, 17, 0.67);*/
+    color: #ffffff;
+    background: rgba(5, 10, 5, 0.78);
+    font-size: 0.7em;
+    float: left;
+    width: 100%;
+}
+
+#m-soc{
+    float: right;
+    position: relative;
+    top: -60px;
+}
+
+
+/*aqui empiece las fuentes de iconos*/
+
+#m-soc{margin: 18px 0 0 10px;padding: 0;width: 280px;height: 66px;}
+#m-soc:hover li {opacity:0.6;}#m-soc li {list-style: none;margin: 4px;padding: 0;float: left;border: none;}
+#m-soc li a{background:url(http://2.bp.blogspot.com/-Aw_MibBJjy0/T1ky-ufuYrI/AAAAAAAAJFA/-h7XKBtLhvU/s1600/sprite1-compartidisimo.png) no-repeat 0 0; margin: 0;padding:0;display: block;position:relative;width: 48px;height: 48px;overflow: visible;}#m-soc li a.twitter{background-position: 0 0;}
+#m-soc li a.facebook{background-position: -48px 0;}
+#m-soc li a.google{background-position: -96px 0;}
+#m-soc li a.youtube{
+background-position: -144px 0;}
+#m-soc li a span{background: #555;position:absolute;top:-10px;left:0;width:auto;height:auto;opacity:0;padding:5px;text-align:left;color:#fff;filter:alpha(opacity=0);white-space:nowrap;border-radius:3px;font-size:12px;-webkit-transition: all 0.25s ease-in-out;-moz-transition: all 0.25s ease-in-out;-o-transition: all 0.25s ease-in-out;-ms-transition: all 0.25s ease-in-out;transition: all 0.25s ease-in-out;}#m-soc li:hover{opacity:1}
+#m-soc li a:hover{text-decoration:none}#m-soc li a:hover span{ opacity:.8;filter:alpha(opacity=80);top:-23px}
+
+/* fin de las fuentes de iconos */
